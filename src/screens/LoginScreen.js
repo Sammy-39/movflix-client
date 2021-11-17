@@ -6,7 +6,7 @@ import { login } from "../features/userSlice";
 import "./LoginScreen.css";
 
 const auth = axios.create({
-  baseURL: "http://localhost:8000/api/v1/",
+  baseURL: "https://movflix-server.herokuapp.com/api/v1/",
 })
 
 const LoginScreen = () => {
